@@ -21,6 +21,17 @@
 
 两版靠一个编译期宏 `ZF_CHEAT` 切分。**纯翻译版里连一个往游戏内存写数据的符号都不存在** —— 反汇编对比可以看到 `zh_cheat`、`zh_cmd2`、`zh_on_hero`、`zh_on_unit` 全部消失，只剩下 `zh_on_draw` 和字形光栅化那套。它等于「官方原版 + 汉化」。
 
+## 下载
+
+不想自己编译的话，打好的包在 [Releases](https://github.com/zgm1189/majesty-zh-patch/releases) 页面：
+
+- `majesty_zh_lite.apk` —— 纯翻译版
+- `majesty_zh_full.apk` —— 完整版
+
+两个包名相同，只能装一个。首次安装需要先卸载官方版（签名不同），**卸载会清掉存档**。之后换版本可以直接覆盖，存档保留。
+
+安装时用 `adb install --no-incremental`，或者直接用文件管理器点安装。走 `adb install -r` 而不带 `--no-incremental` 有概率触发 Incremental Install 把包卸掉重装，存档一起没 —— 这个坑踩过。
+
 ## 目录
 
 ```
