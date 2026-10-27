@@ -102,18 +102,25 @@ def main() -> int:
     ensure_nonempty(args.repo, token, args.branch, root)
 
     base_tree = None
+    deleted: list[str] = []
     if args.changed_only:
         out = subprocess.run(
-            ["git", "-c", "core.quotepath=false", "diff", "--name-only", "-z", "HEAD~1", "HEAD"],
+            ["git", "-c", "core.quotepath=false", "diff", "--name-status", "-z", "HEAD~1", "HEAD"],
             cwd=root, capture_output=True, check=True,
         )
-        names = [n for n in out.stdout.decode("utf-8", "replace").split("\0") if n.strip()]
-        files = [root / n for n in names if (root / n).is_file()]
+        parts = [p for p in out.stdout.decode("utf-8", "replace").split("\0") if p.strip()]
+        files = []
+        for i in range(0, len(parts) - 1, 2):
+            status, name = parts[i], parts[i + 1]
+            if status.startswith("D"):
+                deleted.append(name)          # 远端要显式置空才删得掉
+            elif (root / name).is_file():
+                files.append(root / name)
         # 远端当前 tree 作基线，只提交改动条目
         head = req("GET", f"{API}/repos/{args.repo}/git/ref/heads/{args.branch}", token)
         cobj = req("GET", f"{API}/repos/{args.repo}/git/commits/{head['object']['sha']}", token)
         base_tree = cobj["tree"]["sha"]
-        print(f"增量模式：{len(files)} 个改动文件，base_tree={base_tree[:8]}")
+        print(f"增量模式：{len(files)} 个改动文件、{len(deleted)} 个删除，base_tree={base_tree[:8]}")
     else:
         files = git_files(root)
     print(f"待推送 {len(files)} 个文件，仓库 {args.repo}")
@@ -137,6 +144,12 @@ def main() -> int:
         })
         if i % 20 == 0 or i == len(files):
             print(f"  blob {i}/{len(files)}  ({total/1048576:.1f} MB)")
+
+    # 删除项：sha 置 null，tree 才会把这条去掉
+    for name in deleted:
+        tree_items.append({"path": name, "mode": "100644", "type": "blob", "sha": None})
+    if deleted:
+        print(f"  删除 {len(deleted)} 个：{', '.join(deleted)}")
 
     # 2) tree
     tree_payload = {"tree": tree_items}
