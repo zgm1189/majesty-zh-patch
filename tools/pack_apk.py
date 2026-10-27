@@ -33,6 +33,8 @@ def main() -> int:
     ap.add_argument("--template", required=True, type=Path, help="已注入加载器的模板 APK")
     ap.add_argument("--so", required=True, type=Path, help="要打进去的 libzhfont.so")
     ap.add_argument("--out", required=True, type=Path, help="输出的未签名 APK")
+    ap.add_argument("--replace", action="append", default=[], metavar="条目=文件",
+                    help="额外替换 APK 内的条目，例如 classes3.dex=build/noauth/classes3.dex")
     args = ap.parse_args()
 
     if not args.template.is_file():
@@ -41,6 +43,16 @@ def main() -> int:
     if not args.so.is_file():
         print(f"[x] so 不存在: {args.so}")
         return 1
+
+    extra: dict[str, bytes] = {}
+    for spec in args.replace:
+        name, _, local = spec.partition("=")
+        p = Path(local or name)
+        if not p.is_file():
+            print(f"[x] 要替换的文件不存在: {p}")
+            return 1
+        extra[name] = p.read_bytes()
+        print(f"替换 {name} <- {p.name} ({len(extra[name]):,} bytes)")
 
     so_bytes = args.so.read_bytes()
     print(f"libzhfont.so : {len(so_bytes):,} bytes  ({args.so.name})")
@@ -58,6 +70,10 @@ def main() -> int:
                 zout.writestr(name, so_bytes, zipfile.ZIP_DEFLATED)
                 replaced += 1
                 continue
+            if name in extra:
+                zout.writestr(name, extra.pop(name), zipfile.ZIP_DEFLATED)
+                replaced += 1
+                continue
             # 原样搬运：compress_type 跟着 info 走，STORED 的条目不会被改成压缩
             zout.writestr(item, zin.read(name))
             kept += 1
@@ -65,6 +81,9 @@ def main() -> int:
         if replaced == 0:
             print(f"[!] 模板里没有 {SO_ENTRY}，改为新增条目")
             zout.writestr(SO_ENTRY, so_bytes, zipfile.ZIP_DEFLATED)
+        for name, blob in extra.items():   # 模板里本来没有的替换项，补进去
+            print(f"[!] 模板里没有 {name}，改为新增")
+            zout.writestr(name, blob, zipfile.ZIP_DEFLATED)
 
     print(f"entries kept={kept}  dropped(META-INF)={dropped}  so_replaced={replaced}")
     print(f"wrote {args.out}  ({args.out.stat().st_size:,} bytes)")

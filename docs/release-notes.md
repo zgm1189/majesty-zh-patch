@@ -7,6 +7,15 @@
 
 两个包名相同（`com.herocraft.game.majesty_ne`），**只能装一个**，装另一个会覆盖前一个。
 
+## 这一版去掉了实名认证
+
+原版启动 3 秒后会请求 `https://app2.byfen.com/get_country`（百分网渠道 SDK），
+返回 `cn:true` **或者请求失败**都会弹「需完成实名认证后才能开始网络游戏」，要求填中国大陆身份证号。
+
+对外国玩家来说，请求这个国内接口超时是常态，所以基本都会卡在这一步。
+这一版把认证回调的注册去掉了，启动后不再发这个请求，也不会弹窗，直接进游戏。
+游戏本体、存档位置都没动。原理和验证方法见仓库 `docs/去认证说明.md`。
+
 ## 安装
 
 1. 先卸载官方版（签名不同，无法覆盖安装）。**卸载会清掉存档**，介意的话先备份。
@@ -18,7 +27,7 @@
 
 ## 已知问题
 
-- 菜单里 `PLAYER` 相关的几个标签会显示成截断的 `PLAYE/PLAYERQ/PLAYERT/PLAYERG` —— 引擎按固定字节数截断，中文没这个问题，英文原文被切了
+- 菜单里 `PLAYER` 相关的几个标签会显示成截断的 `PLAY&R` —— 引擎按固定字节数截断，英文原文被切了
 - 战役选择界面的短标签只显示首字
 - 建筑面板个别名称为空（引擎的文本槽位是空的，不是翻译丢失）
 
@@ -26,8 +35,8 @@
 
 | 文件 | SHA-256 |
 |---|---|
-| `majesty_zh_lite.apk` | `11d21be6520c08d29ffce48a16bd955fd2409baa15063b7f4eeab9e0f8783fd0` |
-| `majesty_zh_full.apk` | `4907acdb2a4668d170b687cbf6e95c8809582be85037707153ded1babaaa89d2` |
+| `majesty_zh_lite.apk` | `17b6f7dd7af1ff21141a0fda37ef6ae3147f54da051d9245c8b545410c026f28` |
+| `majesty_zh_full.apk` | `5f372f6bb21a8375a5082afe882b88dd488c7029952be208f788694cba27041d` |
 
 ```bash
 sha256sum majesty_zh_lite.apk majesty_zh_full.apk
