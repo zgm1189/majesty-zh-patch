@@ -32,8 +32,8 @@
 
 不想自己编译的话，打好的包在 [Releases](https://github.com/zgm1189/majesty-zh-patch/releases) 页面：
 
-- `majesty_zh_lite.apk` —— 纯翻译版
-- `majesty_zh_full.apk` —— 完整版
+- `majesty_zh_lite.apk` —— 纯翻译版（已去实名认证）
+- `majesty_zh_full.apk` —— 完整版（已去实名认证）
 
 两个包名相同，只能装一个。首次安装需要先卸载官方版（签名不同），**卸载会清掉存档**。之后换版本可以直接覆盖，存档保留。
 
