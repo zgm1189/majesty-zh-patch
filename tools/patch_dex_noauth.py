@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""去掉百分网（byfen）实名认证：让 com.authentication.MyApp.onCreate 只调 super。
+"""去掉渠道 SDK 的实名认证：让 com.authentication.MyApp.onCreate 只调 super。
 
 背景
 ----
@@ -8,7 +8,7 @@
     b.a.a.c()  拿到单例（构造器里 postDelayed(3000, runnable)）
     registerActivityLifecycleCallbacks(b.a.a)
 
-3 秒后 runnable 执行 `b.a.h.b.e()` → HTTP GET `https://app2.byfen.com/get_country`
+3 秒后 runnable 执行 `b.a.h.b.e()` → HTTP GET `https://<渠道接口域名>/get_country`
 → 回调里看 JSON 的 "cn" 字段：
 
     cn == true    → b.a.h.b.a(activity)  弹「需完成实名认证后才能开始网络游戏」

@@ -6,7 +6,7 @@
 #   bash tools/build.sh apk           # 编译 + 打包 + 签名，两个 APK 一起出
 #   bash tools/build.sh apk lite      # 只出纯翻译版
 #   bash tools/build.sh apk full      # 只出完整版
-#   bash tools/build.sh apk both noauth   # 额外去掉百分网实名认证（见 docs/去认证说明.md）
+#   bash tools/build.sh apk both noauth   # 额外去掉渠道 SDK 实名认证（见 docs/去认证说明.md）
 #
 # 依赖（按需改下面这几个变量）：
 #   NDK      NDK 根目录，需要 clang + llvm-readelf

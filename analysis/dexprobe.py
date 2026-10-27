@@ -3,7 +3,7 @@
 that references it via const-string / const-string/jumbo, and resolve those
 sites back to their declaring class + method.
 
-Used to pinpoint byfen-SDK code paths without apktool.
+Used to pinpoint channel-SDK code paths without apktool.
 """
 import struct
 import sys
