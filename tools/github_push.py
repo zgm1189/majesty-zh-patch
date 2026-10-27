@@ -89,6 +89,8 @@ def main() -> int:
     ap.add_argument("--branch", default="main")
     ap.add_argument("--message", default="")
     ap.add_argument("--root", default=".")
+    ap.add_argument("--changed-only", action="store_true",
+                    help="只推 HEAD~1..HEAD 改动的文件（配合 base_tree，几秒钟就完）")
     args = ap.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN", "").strip()
@@ -98,7 +100,22 @@ def main() -> int:
 
     root = Path(args.root).resolve()
     ensure_nonempty(args.repo, token, args.branch, root)
-    files = git_files(root)
+
+    base_tree = None
+    if args.changed_only:
+        out = subprocess.run(
+            ["git", "-c", "core.quotepath=false", "diff", "--name-only", "-z", "HEAD~1", "HEAD"],
+            cwd=root, capture_output=True, check=True,
+        )
+        names = [n for n in out.stdout.decode("utf-8", "replace").split("\0") if n.strip()]
+        files = [root / n for n in names if (root / n).is_file()]
+        # 远端当前 tree 作基线，只提交改动条目
+        head = req("GET", f"{API}/repos/{args.repo}/git/ref/heads/{args.branch}", token)
+        cobj = req("GET", f"{API}/repos/{args.repo}/git/commits/{head['object']['sha']}", token)
+        base_tree = cobj["tree"]["sha"]
+        print(f"增量模式：{len(files)} 个改动文件，base_tree={base_tree[:8]}")
+    else:
+        files = git_files(root)
     print(f"待推送 {len(files)} 个文件，仓库 {args.repo}")
 
     # 1) 每个文件建一个 blob
@@ -122,7 +139,10 @@ def main() -> int:
             print(f"  blob {i}/{len(files)}  ({total/1048576:.1f} MB)")
 
     # 2) tree
-    tree = req("POST", f"{API}/repos/{args.repo}/git/trees", token, {"tree": tree_items})
+    tree_payload = {"tree": tree_items}
+    if base_tree:
+        tree_payload["base_tree"] = base_tree
+    tree = req("POST", f"{API}/repos/{args.repo}/git/trees", token, tree_payload)
     print(f"tree: {tree['sha']}")
 
     # 3) commit（有父提交就接上，便于以后增量）
