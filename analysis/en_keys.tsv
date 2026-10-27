@@ -1,0 +1,998 @@
+aActs	Singing a song
+aBuilding	Building
+aBuyAmuletTeleportation	Buying amulet of teleportation
+aBuyArmor	Buying armour from the smith
+aBuyCurePotions	Buying healing potions
+aBuyRingProtection	Buying ring of protection
+aBuyWeapon	Buying weapon from the smith
+acHead0	Acquired
+acHead1	Not acquired
+acHead2	All
+acHead4	"Missions"
+acHead5	"Magic"
+acHead6	"Kills"
+acHead7	"Heroes"
+acHead8	"Others"
+acLooser	You haven't acquired any achievements.
+acMessHead	ACHIEVEMENT ACQUIRED!
+acName1	"Devout"
+acName10	"Slaughterhouse"
+acName104	"Heracles"
+acName105	"Perseus"
+acName106	"Tax of the Century"
+acName107	"Ruthless"
+acName108	"Xenohero"
+acName109	"Scales of Justice"
+acName11	"Harmed a baby!"
+acName110	"Looter"
+acName111	"Champion Hunter"
+acName112	"By Fire and Sword"
+acName113	"Cemetery Keeper"
+acName114	"Rabbit Fur Coat"
+acName115	"Rod of Iron"
+acName116	"Mine and No One Else's"
+acName117	"Wings and a Tail"
+acName118	"Stone Trophy"
+acName119	"Dictator"
+acName12	"Taste of gold"
+acName120	"Diminutive punishment"
+acName13	"Lady-killer"
+acName14	"Informers' gratitude"
+acName15	"Bloody money"
+acName16	"Ardania for ardanians"
+acName17	"The closest enemy"
+acName18	"They're alive!"
+acName19	"Respect the elders"
+acName2	"Master Scribe"
+acName20	"Sandbox survivor"
+acName21	"Quick victory"
+acName22	"Don't slow down the pace!"
+acName23	"Fulminant victory"
+acName24	"World record!"
+acName25	"Philanthrope"
+acName26	"Pious"
+acName27	"Undead army"
+acName28	"Emergency"
+acName29	"Curse you!"
+acName3	"Good goblin - dead goblin"
+acName30	"Undead lord"
+acName31	"Wide horizon"
+acName32	"Wizard's helper"
+acName33	"Storm lord"
+acName34	"Unseen death"
+acName35	"Thunderclasher"
+acName36	"Evil eye"
+acName37	"Rat-catcher"
+acName38	"Soup products"
+acName39	"Bane of goblins"
+acName4	"Golden teeth"
+acName40	"Spider-slayer"
+acName41	"Lumberjack"
+acName42	"Bird-catcher"
+acName43	"Beef broth"
+acName44	"Undead hunter"
+acName45	"As dead as possible"
+acName46	"Marketplace keeper"
+acName47	"Dungeons without dragons"
+acName48	"Golem-crusher"
+acName49	"Take no prisoners"
+acName5	"Master of Alucard"
+acName50	"Divine retribution"
+acName51	"Burnt-off land"
+acName52	"Old soldier"
+acName53	"Robin Hood"
+acName54	"Amazon queen"
+acName55	"General of Infernal army"
+acName56	"Big club chief"
+acName57	"Gray-haired ears"
+acName58	"Mini-giant"
+acName59	"Archmage"
+acName6	"Ice-cream from Goblins"
+acName60	"Saviour"
+acName61	"Death embodied"
+acName62	"Champions' trainer"
+acName63	"Recruit-hunter"
+acName64	"Father-commander"
+acName65	"Lord of the horde"
+acName66	"Cemetery of friends"
+acName67	"Burrow"
+acName68	"Misanthrope"
+acName69	"Honorary mason"
+acName7	"Sovereign of stones"
+acName70	"Town-builder"
+acName71	"Great architect"
+acName72	"Wanderer"
+acName73	"Traveller"
+acName74	"Explorer"
+acName75	"Economist"
+acName76	"Enviable groom"
+acName77	"Financier"
+acName78	"Ideal strategist"
+acName79	"Time to retreat"
+acName8	"Archaeologist"
+acName80	"Lost war"
+acName81	"Worst king ever"
+acName9	"Dragonfighter"
+acProgress	Progress
+acRoomHead	Achievements
+acText1	Complete {0} mission.
+acText10	Kill {0} goblins.
+acText11	Kill {0} monstrous spiders.
+acText12	Kill {0} daemonwoods.
+acText13	Kill {0} harpies.
+acText14	Kill {0} minotaurs.
+acText15	Kill {0} vampires.
+acText16	Kill {0} zombies.
+acText17	Kill {0} trolls.
+acText18	Kill {0} dragons.
+acText19	Kill {0} stone golems.
+acText2	Complete tutorial level.
+acText20	Kill {0} enemies during the game.
+acText21	Upgrade Warrior to {0} level.
+acText22	Upgrade Ranger to {0} level.
+acText23	Upgrade Paladin to {0} level.
+acText24	Upgrade Warrior of Discord to {0} level.
+acText25	Upgrade Barbarian to {0} level.
+acText26	Upgrade Elf to {0} level.
+acText27	Upgrade Dwarf to {0} level.
+acText28	Upgrade Wizard to {0} level.
+acText29	Upgrade Wizard-healer to {0} level.
+acText3	Complete 2 missions within {0} days.
+acText30	Upgrade Necromancer to {0} level.
+acText31	Upgrade all the heroes to 20 level.
+acText32	Hired {0} heroes.
+acText33	{0} heroes died.
+acText34	Constructed {0} buildings.
+acText35	Explore {0} maps totally.
+acText36	Explore {0} maps totally.
+acText37	Explore {0} maps totally.
+acText38	Earned {0} gold per mission.
+acText39	Never lost.
+acText4	Complete 4 missions within {0} days.
+acText40	Lost {0} times.
+acText41	For freeing the necromancer.
+acText42	For destroying goblins.
+acText43	For destroying minotaurs.
+acText44	For destroying dwarfs.
+acText45	For defeating the Great Dragon.
+acText46	Kill {0} Meduses.
+.
+acText47	Complete "Tax Crisis" mission.
+acText48	Defeat the dragon in "Tax Crisis" mission.
+acText49	Complete "Overpopulation" mission.
+acText5	Complete 7 missions within {0} days.
+acText50	Complete "Lost Gold" mission.
+acText51	Destroy all vaults in "Lost Gold" mission.
+acText52	Complete "Moral Decadence" mission.
+acText53	Destroy all hostile guilds in "Moral Decadence" mission.
+acText54	Complete "Too Many Skeletons" mission.
+acText55	Defeat 30 rabbits in "Too Many Skeletons" mission.
+acText56	Defeat all dwarves in "Dwarves Amusement" mission.
+acText57	Defeat all lairs in "Dwarves Amusement" mission.
+acText58	Complete "Conflict of Interest" and destroy dragons.
+acText59	Complete "Conflict of Interest" and destroy golems.
+acText6	Complete the game within {0} days.
+acText60	Complete "Riot of Libertarians" mission.
+acText61	Destroy all gnome hovels in "Riot of Libertarians" mission.
+acText7	Use "{0}" {1} time per game.
+acText8	Kill {0} giant rats.
+acText9	Kill {0} skeletons.
+aDefendHome	Defending home
+aDefendKingdom	Defending kingdom
+aDestroyBuilding	Destroying a building
+aDestroyMonsterLair	Ravaging lair
+aEnchantArmor	Enchanting armour
+aEnchantWeapon	Enchanting weapon
+aExplore	Exploring
+aFights	Fighting
+aGetsTreasure	Getting treasure
+aGoBuilding	Going to build
+aGoBuyAmuletTeleportation	Going to buy amulet of teleportation
+aGoBuyArmor	Going to buy armour
+aGoBuyCurePotions	Going to buy healing potions
+aGoBuyRingProtection	Going to buy ring of protection
+aGoBuyWeapon	Going to buy weapon
+aGoEnchantArmor	Going to enchant armour
+aGoEnchantWeapon	Going to enchant weapon
+aGoGetsTreasure	Going for treasure
+aGoHome	Returning home
+aGoLootingGravestones	Going to rob grave
+aGoPoisonWeapon	Going to envenom weapon
+aGoSteal	Going to steal
+aGoToAward	Going for reward
+aGoToFlagExploring	Going to scouting flag
+aHealing	Healing
+aHunt	Hunting
+aInjured	Retreating wounded
+aInRage	Getting enraged
+aLeaveKingdom	Leaving kingdom
+aListening	Listening to a song
+aLootingGravestones	Robbing grave
+aMoving	Wandering
+aPoisonsWeapon	Envenoming weapon
+aRefugeAtHome	Looking for refuge at home
+aRest	Resting at home
+aResurection	Getting resurrected
+aRunsInFear	Running in fear
+aStealing	Stealing
+aSupport	Assisting
+aSupportsHeal	Following and healing
+aThink	Thinking
+bldBuilding	Building constructed
+deadHero	Dies
+dstrBuilding	Building destroyed
+flSmsError	Sms sending error
+GHJLLL	I'M A PIRATED COPY, I WON'T WORK ANYMORE, PLEASE UNINSTALL THIS VERSION AND BUY A LEGAL VERSION OF ME.
+hAgrella	Temple of Agrella
+hAwExpl	Scouting flag
+hAwKill	Attack flag
+hAws	Awards
+hBlcksmth	Blacksmith
+hCanaliz	Sewer entrance
+hCastle	Castle
+hCrypta	Temple of Crypta
+hDrgnFrzn	Frozen dragon
+hDwarfT	Dwarven tower
+hDwarfW	Dwarven fortress
+hElfBung	Elven bungalow
+hFontan	Fountain
+hGnomeH	Gnome hovel
+hGobHouse	Goblin hut
+hGobVill	Goblin village
+hGraveY	Graveyard
+hGuardT	Guard tower
+hHouse	House of heroes
+hKrolmT	Temple of Krolm
+hLibrary	Library
+hlpAgrellaTemple	Allows you to hire 4 healers. Paladins become available in the Warriors guild. Enables the "Heal" spell instantly and "Bless" and "Resurrect" after upgrades. Not compatible with other temples.
+hlpAnimateBones	"Raise bones" spell.^^ Summons one skeleton for a target hero or monster to whom it serves until death. The stronger a creature used for bone raising, the stronger the summoned skeleton. If the spell was used to a hero, the hero will receive all the experience and money acquired by the skeleton for killing enemies.^^ Requires 2nd level of Temple of Agrella.
+hlpAntiMagic	"Anti-magic" spell.^^ Temporarily increases magic resistance and removes all target's negative affects.^^ Requires 2nd level of Wizard guild.
+hlpAwards	Rewards.^Here you may assign a reward for Attack flag (red colour) and Scouting flag (blue colour). Use Attack flags to motivate your heroes to attack the monsters and their lairs and Scouting flags to explore the unknown areas of the map. Choose a sum of reward for the selected flag and place it at the desired spot on map or an object (monster, lair, building).
+hlpBlcksmth	The blacksmith allows heroes to buy weapons and armour of better quality. The higher the level of blacksmith, the better goods it offers.^The blacksmith also reduces the cost of other buildings' construction, but this ability doesn't depend on the number of blacksmiths.
+hlpBlessing	"Bless" spell.^^ Temporary increases target's combat parameters.^^ Melee +10^ Ranged +10^ Deflection +15^ Dodge +15^^ Requires 2nd level Temple of Agrella.
+hlpCanalization	Appears along with kingdom expansion, spawns rats and undead. Cannot be destroyed.
+hlpCastle	1st level Castle:^ -Supports one tax collector and one guard. Allows you to build basic buildings.^^2nd level Castle:^ -Supports two tax collectors and two guards. Allows you to build temples, Wizard guild, to hire elves or dwarves. 4 heroes are necessary to upgrade the castle to the second level.^^ 3rd level Castle:^ -Supports three tax collectors and three guards. Allows you to upgrade temples and Wizard guilds to 3rd level. 12 heroes are required to upgrade the Castle to the third level.^^ The loss of the Castle means automatic defeat.
+hlpCryptaTemple	Allows you to hire 4 Necromancers. Warriors of Discord become available to hire in the Warrior guild. Enables "Wither" spell instantly and "Raise bones" and "Reanimate" spells after upgrades. Not compatible with other temples.
+hlpDragonFrozen	Global warming has played a nasty trick on the dragons. Having flown a great distance, they found themselves in a glacier desert instead of warm northlands.
+hlpDwarfTower	As well as the Guard tower, a Dwarven tower is a mighty defensive building.
+hlpDwarfWindMill	Allows you to hire 3 dwarves. Allows you to build Dwarven Tower. Not compatible with Elven Bungalow.
+hlpElfBungalow	Allows you to hire 2 elves.^Doubles income from marketplaces.^Once Elven Bungalow is built, You double your income automatically, but the dwarves become unavailable.
+hlpEnemyCrypa	It is a Den of Evil and the shelter of the mad necromancer Darkmurderer.
+hlpEnemyDWarrior	A fallen Warrior of Discord, the follower of the immoral doctrine. He is a very good singer and dancer.
+hlpEnemyElf	Struggles for a free and clean forest. Slay on sight.
+hlpEnemyElfBungalow	The rebellious elves who pretend to fight for their land dwell in this elegant-looking building. All of them should be slain without delay.
+hlpEnemyGnomeHouel	Gnome hovel. Gnomes don't know much about politics but they are ready to come over to the rioters' side in exchange for a piece of stale goblin meat.
+hlpEnemyKrolmTemple	The outpost of the rioters. Here live the barbarians deceived by the crafty healers. They debate and idle for days on end.
+hlpEnemyPaladin	Paladiness mutinied against the senseless murders, the vow of chastity and the daily prayers. She is destined to immediate elimination.
+hlpEnemyWarrior	Immigrant from an unknown kingdom. He is impudent enough to set foot on your lands and kill your monsters.
+hlpEnemyWarriorBoss	A famous warrior slackening the moral principles of the kingdom and undermining the demographic nature.
+hlpEnemyWarriorGuild	Warrior guild. Choral singing and obscene sounds can be heard through its walls. Warriors of Discord are walking around in pairs.
+hlpEnemyWizardElf	Ancient elvish magician who entered the confrontation with the other two magicians for the right to possess the princess. Most of his strength goes on fighting them, and each enemy's death releases a part of his magic and makes him more powerful.
+hlpExplore	"Explore" spell.^^ Reveals unexplored parts of the map.^^ Requires 1st level of Wizard guild.
+hlpFontan	The fountains decorate the kingdom and show its prosperity.
+hlpGnomeHouel	If there are gnome hovels in your kingdom, the building and repairing of buildings quickens drastically. The more hovels are built and the closer they're located to the target building, the faster it's built or repaired. Not compatible with dwarves or elves.
+hlpGraveyard	Appears in the kingdom once many heroes die. Cannot be destroyed. Spawns zombies and skeletons.
+hlpGuardTower	Defensive building which protects the kingdom from its enemies. Offers a place for the guards to rest. The tax collectors may bring the collected taxes to the tower.
+hlpHealing	"Heal" spell.^^ Fully restores target's health.^^ 1st level Temple of Agrella is required.
+hlpHouse	The houses appear along with heroes and bring a lot of gold.
+hlpInvisible	"Invisibility" spell.^^ Temporarily makes the target invisible.^^ Requires 1st level of Wizard guild.
+hlpKrolmTemple	Allows you to hire 4 barbarians. Not compatible with other temples.
+hlpLibrary	Enables new spells for the wizards. Reduces research cost.
+hlpLighing	"Lightning" spell.^^ Inflicts magical damage to the target.^^ Requires 2nd level of Wizard guild.
+hlpLightingStorm	"Lightning storm" spell.^^ Inflicts magical damage to all targets within area of spell effect.^^ Requires 3rd level of Wizard guild.
+hlpMarket	The Marketplace produces additional income for the kingdom: the higher the marketplace level, the more gold it brings.^Allows the heroes to buy healing potions, rings of protection and amulets of teleportation once the building is upgraded. The "Market day" ability brings extra gold, but the market closes temporary.
+hlpMLair	Any ruler faces lairs of various monsters sooner or later. Such lairs should be destroyed for the sake of kingdom and its citizens.
+hlpMonstersHouse	It was a cosy peasant house once. Now harpies dwell in it.
+hlpMonstersHouse14	The lodge where the guards are resting. You can seize the tower by destroying the lodge.
+hlpMonstersHouse15	Here live the peasants that are patronised by Agrella's church.
+hlpMonstersHouse2	Log cabin. This building is totally useless. If you want you may destroy it.
+hlpQueenElfBungalow	The ancient castle is protected by a magic shield.
+hlpQuestAgrellaTemple	Rebellious temples. If you want to stay in the Goddess' favour, it's best not to destroy them.
+hlpQuestGuardTower	Agrella's church managed to build these towers at short notice for protecting their temples.
+hlpQuestGuardTower16	In this tower there was once a Ceremony of Blood, and now a part of the province's lands is cursed. Destroying each of the towers will help you weaken this damnation.
+hlpQuestMainAgrellaTemple	The main temple. A long siege will lead to surrender of the priests.
+hlpRangerG	Allows you to hire 4 rangers.^^Rangers explore the map on their own.
+hlpReanimate	"Reanimate" spell.^^ Use of this spell on the corpse of a slain hero or monster raises the target with partially restored health. ^^3rd level of Temple of Crypta is required.
+hlpRedDragon	This creature is slow and sluggish but very dangerous. It attacks by breathing fire at multiple opponents at once. The dragon's flame is so powerful so it is able to scorch an average village or a small kingdom.
+hlpResurrection	"Resurrect" spell. ^^Resurrects a fallen hero or monster with fully replenished health.^^ Requires 3rd level Temple of Agrella.
+hlpStatue	The statues increase the loyalty of the heroes which encourages them on to new adventures.
+hlpSupercharge	"Supercharge" spell.^^ Temporarily enhances the power of all the spells offered by the Wizard guild.^^ Requires 3rd level of Wizard guild.
+hlpTowerOfMadWizard	Tower where the mad wizard locked himself up forever. To scare unwelcome guests away its walls are smeared with faeces and zombies play hard-rock in the yard round the clock.
+hlpUnitBarbarian	Fights with both hands and deals significant damage. Doesn't use armour, hunts along with rangers when possible.
+hlpUnitBlackDragon	Very old, ill and angry dragon. The last example of the Great Dragons genus.
+hlpUnitDubolom	Very strong and dangerous enemies. Not shown on mini-map and thus hard to locate.
+hlpUnitDwarf	Fights well and has high magical resistance. Helps to construct and repair buildings. Reacts quickly to reward flags.
+hlpUnitDWarrior	Very strong. Can attack several enemies at once. Has a higher chance of a critical hit. Quite weak defensively and has low armour parameters.
+hlpUnitElf	Shoots accurately over long distances. Moves very quickly. Plays musical instruments.
+hlpUnitEnemyBarbarian	A barbarian who became attracted by the idea of fair elections. He's hungry and aggressive.
+hlpUnitEnemyRanger	A ranger settled illegally in the outlying districts of the kingdom. He is suspected of espionage on behalf of a neighboring kingdom.
+hlpUnitEnemyWizardHealer	A propagandist healer who read too many harmful books. He belongs to the "Free Ardania" party.
+hlpUnitGarpy	Greed-driven. Often attack marketplaces and tax collectors.
+hlpUnitGiantRat	Appears in city canalizations. Attack the citizens.
+hlpUnitGoblin	Attack in packs, strong in numbers.
+hlpUnitGoblinArcher	Shoot with their bows from a distance.
+hlpUnitGoblinChampion	Quite strong in melee combat.
+hlpUnitGoblinShaman	Summons a swarm of insects to attack the enemies.
+hlpUnitGolem	Dangerous and strong enemy. It's very good in close combat. This revived pile of stones is in fact a mechanical creature. Nobody simply managed to find the switch on it.
+hlpUnitMedusa	Spiteful inhabitant of the North with good magic protection and circular attack. If it were not for their offensive breath they would be excellent housewives. With their swords they brilliantly chop vegetables and carve meat.
+hlpUnitMinotaur	Strong in melee. Attacks dwellings and heroes.
+hlpUnitNecromancer	Necromancer Gyzmondo has entered the ancient graveyard looking for a love adventure, but got caught in a mean trap.
+hlpUnitNecromancerBoss	Xardis, a hereditary necromancer. He took the cure for alcoholism in the Temple of Agrella and went crazy soon after that. He is destined for destruction by our armies.
+hlpUnitPaladin	Very strong in melee. Has very good movement speed. Uses defensive spells. Requires Warrior guild and Temple of Agrella to hire.
+hlpUnitQuestDwarf	Typical dwarven representative of Mithril Rod clan.
+hlpUnitQuestPaladin	Agrella's loyal warriors have turned their swords on you at their Goddess' will.
+hlpUnitQuestWizardHealer	Religious zealots who convinced Agrella of your evil deeds.
+hlpUnitRanger	Explores the outskirts of a kingdom, revealing the unexplored areas.^ Supports barbarians in combat.
+hlpUnitSkelet	Weak in melee, resistant to ranged weapons.
+hlpUnitSpider	Move quickly and poison their enemies in melee combat.
+hlpUnitTaxCollector	Collects taxes from buildings and thus replenishes the treasury.
+hlpUnitTroll	Attacks the marketplaces and tax collectors. Able to regenerate health.
+hlpUnitVampire	Fights in melee. Uses "magic mirror" spell which deflects hostile magic. Uses "Drain life" spell to heal himself and draw on the enemy's health.
+hlpUnitVampire16	Deadly and ruthless. A whisper circulates that somewhere in the North is a vampires' citadel, and all the lands surrounding it are under the oppression of these bloodsuckers.
+hlpUnitWarder	Protects the village from its enemies. Patrols the outskirts.
+hlpUnitWarrior	Fights well in melee.^ Uses weapons and armours.
+hlpUnitWizard	Uses defensive and offensive spells. Doesn't use armour.
+hlpUnitWizardHealer	Accompanies and heals the heroes. Can raise from death one time per level. Doesn't use armour.
+hlpUnitWizardNecromancer	Summons a skeleton to fight at his side. With level growth can control zombies, skeletons and vampires. Casts a spell to drain life from the enemies and thus heal himself and his skeletal servant.
+hlpUnitZombie	Weak in melee. Poison enemies.
+hlpVampireCastle	Citadel of vampires and their servants - zombies and skeletons. In the daytime vampires sleep peacefully in their coffins, and at night they scour about for anyone edible.
+hlpVampireCastle16	The castle of the mighty vampire who came from the North in search of entertainment.
+hlpWarriorG	Allows you to hire 4 warriors. If the Temple of Agrella is built, it allows you to hire Paladins, if the Temple of Crypta is built Warriors of Discord are available.^^ A Warrior guild is a basic building of kingdom protection. Build this first of all.
+hlpWindmillQuest_14	The dwarven fortress of the Fierce Goldlovers clan is intricately decorated with gilded images of gold bullions alternating with a hundred variants of the dwarven word "gold".
+hlpWither	"Wither" spell.^^Temporary reduces target's attack speed and strength.^^Requires 1st level temple of Crypta.
+hlpWizardGuild	Allows you to hire 4 wizards. Enables spells "Explore" and "Invisibility". Once the building is upgraded, it also enables the spells "Lightning", "Anti-magic", "Lightning storm" and "Supercharge". Allows the heroes to enchant weapons and armour.
+hlpWndMllQst	Powerful fortress of Mithril Rod clan dwarves.
+hMarket	Marketplace
+hMLair	Monster lair
+hMnstrHous	Peasant house
+hRangerG	Ranger guild
+hStatue	Statue
+hTowerOfMadWizard	Tower of the mad^wizard
+hUBararian	Barbarian
+hUBlackDragon	Great Dragon
+hUDubolom	Daemonwood
+hUDwarf	Dwarf
+hUDWarrior	Warrior of Discord
+hUElf	Elf
+hUElfW	Elvish magician.
+hUGarpy	Harpy
+hUGiantRat	Giant rat
+hUGoblin	Goblin fighter
+hUGoblinA	Goblin archer
+hUGoblinC	Goblin champion
+hUGoblinD	Goblin shaman
+hUGolem	Golem
+hUHealer	Healer
+hUMedusa	Medusa
+hUMinotaur	Minotaur
+hUNecro	Necromancer
+hUPaladin	Paladin
+hURanger	Ranger
+hURedDragon	Red dragon
+hUSkelet	Skeleton
+hUSpider	Monstrous spider
+hUTaxColl	Tax collector
+hUTroll	Troll
+hUVampire	Vampire
+hUWarder	Guard
+hUWarrior	Warrior
+hUWizard	Wizard
+hUZombie	Zombie
+hWarriorG	Warrior guild
+hWizardG	Wizard guild
+hWndMllQst	Dwarven dwelling
+iCnstrct	The builders are working on the site, you'll have to wait till they're done!
+iQstDism	The hero has worked well. Retire him?
+iQstDstr	Are you sure you want to destroy this building? Think twice, maybe you shouldn't do it?
+iRuine	It once was a very fine building, but now, to our sorrow, only its ruins remain.
+kActivation	Attention! It's the first time you're starting the game so it has to be activated. Make sure that internet connection is available.
+kAmTel	Amulets of teleportation
+kArmor	Defence
+kAvaliableInFullVersion	AVAILABLE IN FULL VERSION
+kBldngs	Quests
+kCancel	Cancel
+kdAbout	ABOUT
+kdAboutText	MAJESTY: THE NORTHERN EXPANSION^VERSION 1.5.30^^WWW.HEROCRAFT.COM^WAP.HEROCRAFT.COM^^Support^support@herocraft.com^^Producing^Pavel Prokonich,^Ilya Denbrov.^^Programming^Alexander Andreev,^Andrey Alexeenko,^Alexey Kuzin.^^Game-design^Alexander Andreev.^^Level design^Alexander Andreev,^Evgeny Schur.^^Graphics ^Alexander Monastyrskiy,^Eugene Makushev,^Oleg Sabanov,^Alexey Elin,^Dmitry Ognev,^Alexey Rastorguev.^^Music^Pavel Bezuglyi.^^Porting^Vyacheslav Konopkin.^^Testing^Vitaly Dyachenkov,^Andrey Sitkov,^Anton Chernookiy.^^Project manager^Dmitry Bezuglyi.^^Majesty - trademark of Paradox Interactive. Herocraft is exclusive developer and publisher of this game.^^(C) HEROCRAFT 2010 - 2021 ^All rights reserved
+kdAboutTextMini	MAJESTY: THE NORTHERN EXPANSION^VERSION 1.5.30 (629)^^WWW.HEROCRAFT.COM^WAP.HEROCRAFT.COM^^Support^support@herocraft.com^^Producing^Pavel Prokonich,^Ilya Denbrov.^^Programming^Alexander Andreev,^Andrey Alexeenko,^Alexey Kuzin.^^Game-design^Alexander Andreev.^^Level design^Alexander Andreev,^Victor Ostapchuk.^^Graphics ^Alexander Monastyrskiy,^Eugene Makushev,^Oleg Sabanov,^Alexey Elin,^Dmitry Ognev,^Alexey Rastorguev.^^Music^Pavel Bezuglyi.^^Porting^Vyacheslav Konopkin.^^Testing^Sergey Krikonyuk,^Alexander Marchenko.^^Project manager^Dmitry Bezuglyi.^^Majesty - trademark of Paradox Interactive. Herocraft is exclusive developer and publisher of this game.^^(C) HEROCRAFT 2010 - 2021 ^All rights reserved
+kdAchivements	ACHIEVEMENTS
+kdAchSincQ	You've acquired new achievements!^Do you want to send them?
+kdAwards	AWARDS
+kdBack	BACK
+kdCampaign	CAMPAIGN
+kdChangeLog	In this version a new paid level is available. Various bug fixes.
+kdChangeLogHead	Attention!
+kdContinue	CONTINUE
+kdCreateProfile	CREATE
+kdEndMission	END
+kdError	ERROR!
+kdErrorProfileEql	Profile "{0}" already exists!
+kdExit	EXIT
+kdExitMissionQ	End mission?
+kdExitQ	Are you sure you want to quit the game?
+kdExitToMainMenuQ	Do you want to exit to "Main menu"?
+kdHelp	HINTS
+kdHelpBuildingCh	BUILDINGS
+kdHelpHeroCh	HEROES
+kdHelpMagicCh	SPELLS
+kdHelpMonsterCh	MONSTERS
+kdHelpOtherCh	BASICS
+kDiffLevel0	Pacifist
+kDiffLevel1	Peacemaker
+kDiffLevel2	Bloodthirsty
+kdInfo	HELP
+kdLanguage	LANGUAGE
+kdLoad	LOAD
+kdLoadQ	Are you sure you want to load the game?
+kdLoadQ2	Your current mission will be interrupted.
+kdLocalRecords	LOCAL
+kdMainMenu	MAIN MENU
+kdMoreGames	MORE GAMES
+kdMusic	MUSIC
+kdNewGame	DELETE PROGRESS
+kdNewGameQ	Are you sure you want to delete progress?
+kDodge	Dodge
+kdOff	OFF
+kdOn	ON
+kdOnline	ONLINE
+kdOptions	OPTIONS
+kdPlay	PLAY
+kdProfile	PROFILES
+kdProfileDeleteQ	Are you sure you want to delete profile^ "{0}"?
+kdPurchaseFail	An error occurred while purchasing.
+kdPurchaseGoldFail	While purchasing gold an error has occurred.
+kdPurchaseGoldOk	Congratulations!^ The neighbouring kingdom has fulfilled your request. Your treasury has received {0} gold coins.
+kdPurchaseGoldQ	Would you like to borrow money from a neighbouring kingdom by making a purchase on Android Market?
+kdPurchaseGoldQ2	Your Majesty, the treasury is almost empty. Do you wish to lend {0} gold coins from the neighbouring kingdom?
+kdPurchaseHead	Report
+kdPurchaseLevelFail	An error occurred during purchasing.
+.
+kdPurchaseLevelOk	The purchase was completed successfully. All the levels are unlocked.
+kdPurchaseLevelQ	Do you want to use magic keys to unlock all the levels?
+kdPurchaseOk	The purchase was completed successfully.
+kdRestartLevelQ	Are you sure you want to restart this mission?
+kdSave	SAVE
+kdSaveQ	Are you sure you want to save the game? Your previous saved game will be lost.
+kdScores	SCORES
+kdScreenShot	SCREENSHOT
+kdSendSMS	REPLENISH TREASURY
+kdSkirmish	SKIRMISH
+kdSound	SOUND
+kdSoundQ	Enable sound?
+kdSynchGame	SYNCHRONIZATION
+kdSynchGameQ	Do you want to syncronize game's progress with game server?
+kdTalks	DISCUSS
+kdTask	OBJECTIVE
+kdTellAFriend	TELL A FRIEND
+kdYourCraft	YourCraft
+kEndGame	Your Majesty, owing to your wise and fair governence the Kingdom has reached a prodigious level of prosperity and happiness. All inhabitants of the country consider you the greatest King in the history of Ardania!
+kFBall	Fireball
+kFBlast	Fire blast
+kFShld	Fire shield
+kMissionCompleteDiff	Difficulty level
+kMResist	Magic resistance
+kMrktDay	Market day
+kMStorm	Meteorite storm
+kNoConnection	No connection. Check your internet settings.
+kOk	OK
+kPotions	Healing potions
+kResearch	Research
+kResist	Resistance
+kRingProt	Rings of protection
+kTlprt	Teleport
+kUMagic	Magic resistance
+lang	English
+LASLD	THANK YOU FOR PURCHASING THIS GAME, YOU WILL FIND A DOWNLOAD LINK IN THE SMS WE'RE SENDING YOU NOW. PLEASE, UNINSTALL THIS VERSION OF THE GAME BEFORE DOWNLOADING AND INSTALLING A NEW ONE.
+lstNamesBarb	Heartless,Fingerless,Savage,Stonehead,Sadist,Ogre,Berserker,Capricious
+lstNamesDW	Bonehead,Lifestomper,Moonchomper,Ripper,Reaper,Gutter,Nazgul,Bonebreaker,Chaoslord
+lstNamesDwarf	Skimpy,Hammerhead,Shortlegged,Brawler,Brewer,Smith,Rednose,Miner
+lstNamesElf	Rogue,Aesthete,Bouncer,Peculator,Rhymester,Seducer,Ministrel,Cheater
+lstNamesHealer	Toothless,Lame,Deaf,Blindman,Lisper,Armless,Noseless,One-Eye
+lstNamesNecr	Gyzmondo,Faceless,Whisperer,Evilgloom,Cannibal,Darkowl,Darkwind,Soulcatcher,Warlock
+lstNamesPaladin	Stubborn,Blonde,Snorry,Pretty,Valkyrie,Manhater,Chasteneress
+lstNamesRanger	Pilgrim,Ranger,Birdcatcher,Keen-eye,Loudless,Half-Elf,Twistleg,Pricker
+lstNamesWarrior	Dare,Brave,Goodman,Nasty,Ironhand,Restless,Oakenshield,Widowmaker
+lstNamesWizard	Incinerator,Stormbringer,Librarian,Grumpy,Scribe,Altruist,Beardie,Gandalf
+maxBuildingsReaching	Your Majesty! With this order you'll reach the maximum number of buildings. You won't be able to build any more until you destroy one of the constructed buildings. Unless of course before the enemies do that for you!
+maxHeroesReaching	Your Majesty! You've enlisted the last of your free heroes. You won't be able to hire other heroes before you retire one of your current ones.
+mcComplete1	Your Majesty, the demented paladinesses have been thrown down. Apparently, they'd simply got bored without their husbands who have been at war a long way away for several years already. There's a suggestion we should bind them to the temple of the Discord Warriors' barracks, or else the women can't spend their lives either warring or praying.
+mcComplete10	Your Majesty, the royal weather forecasters report mass natural fires sweeping across the small immigrant settlement. The foreigners without pausing for thought have left their houses and settled in the neighboring kingdoms. The guilds have doubled their billing rates but in acknowledgement of your firm actions aimed at protecting the national interests the royal court is now receiving an unheard-of 2% discount on all services for the next month!
+mcComplete11	Your Majesty, it is my privilege to report you good tidings - the vampires have happily been impaled with wooden stakes, and their remains have been processed for the benefit of tanners and dentists. The money is still missing from the treasury, but I, together with the treasurer, have defined another group of suspects - it's werewolves, ogres, minotaurs and possibly dragons.
+mcComplete12	It's a triumph of morals, your Majesty! No more men will succumb to the idea of choral singing, especially if they see the heads of the warrior and his disciples blending with the architectural complex of the royal palace.
+mcComplete13	Congratulations your Majesty! The people look like people again, and skeletons again look like skeletons. In addition, our economy is on the rise mainly due to the rabbit breeding sector. For the time when skeletons were rabbits, their population has become a dozen times bigger! Their progeny remains cute, fluffy and tasty. Oh, your meat-pie is ready and will soon be served, enjoy your meal.
+mcComplete14	Your Majesty, it's fantastic! I've watched the games broadcast via magic sphere - the Greedy Misers clan took first place by a long way thanks to our help. There's also bad news, though - the Chieftain sent us a sack of coal and informed that in the Dwarven culture diamonds and coal are generally of the same value. By and large, I'm afraid we'll never get anything from the Greedy Misers, who would have thought it?!
+mcComplete15	Great! Your artful plan to defect to the golems succeeded - now not only the remainder but all the dragons' riches are going to the royal treasury. The golems thank you for your support and vow fidelity.
+mcComplete15alt	The result surpassed all expectations - the golems are ground into dust and the dragons are very satisfied and say they're very proud to have such a caring King as you.
+mcComplete16	Sire, the danger has passed. The healers are committed to merciful torture, the gnomes and barbarians thank you for their deliverance from harmful ideas. I think these innocent souls are not guilty in succumbing to the pernicious impact of the healers. To put new heart into them, I suggest cancelling today's gnome executions and to double the barbarians rations.
+mcComplete2	Your Majesty! We've found out why the caravans had got lost. It emerged that it was Golems who robbed the merchants. It's rather strange because Golems usually keep away from roads and settlements. For all their immoral deeds I've signed an edict according to which Golems are no longer in the Royal Red List. Let that be a lesson to others. And the stolen ink is already on the town marketplace - thank God, delations flow like water again!
+mcComplete3	Your Majesty, the Supreme Wizard has been defeated. Only death could calm the madman down and put an end to the destroying of the kingdom. Despite his scary threats and bad behavior, in recognition of his past services he'll be buried with all due honors, each piece in a different place, so that hostile necromancers wouldn't find his body. By the way, the idea of handing out biscuits as the salary to your subjects was remarkable!
+mcComplete4	Your Majesty, the vampire village has been wiped off the face of the earth, all the vampires have been destroyed, as well as their castle. This behavior is very strange for vampires - they rarely leave their ancient castles and certainly they haven't tried to settle in an out-of-the-way hamlet. But now the trouble is behind us. After a while peasants will come to this place again, rebuild the village and start paying taxes properly as they did before. By the way, here I have a present for you - it's a necklace of vampire fangs, I made it myself. Our sorcerers assure me that it's an excellent charm. Oh, and we've floated a rumor that at midnight vampires attack those who don't pay their taxes in time.
+mcComplete5	Your Majesty, our dashing troops have repulsed the sudden attack and destroyed the enemy. The leader of the goblins tried to surrender with a white flag between his teeth but we got the hang of his artful maneuver This flag became his shroud. Unfortunately, my valiant relatives died in battle, but I'll be sure to set up monuments to them on their land that is now going to be mine.
+mcComplete6	Your Majesty, in the course of the Northern Campaign our troops have won the first battle on the road to opening up and conquering the new territories. Golems are strong and crafty enemies but in spite of it the royal army passed with flying colors After a short rest they'll be ready to continue the march. By your order we haven't made fires to prevent the warriors from getting drunk together, and we tied them together so that they don't get lost.
+mcComplete7	Your Majesty, it turned out that it wasn't dead but quite alive, angry and hungry red dragons. However, at the cost of the warriors' and painters' lives we defeated them, and now this place can after all be named the "Cemetery of Red Dragons". One of the wounded dragons tried to run from the battlefield, but our warriors followed his tracks and discovered a really amazing thing. They found the lair of the Great Dragon himself. Your scientists say this breed hasn't been found in nature for about 1000 years. At first the votaries of science refused to go and study the dragon but under pain of death and torture they agreed. What strange people, they don't want to do anything without torture, or maybe they just like it?
+mcComplete8	Your Majesty, under your wise command the army have displayed courage in struggling against this unfamiliar enemy and indeed they've gained a glorious victory. The Northern lands are captured, all enemies are defeated and the kingdom is now bigger and richer. Our scientists confirmed that the Great Dragon was responsible for all our recent misfortunes. The madness of your father Roderick I is now considered the dragon's fault, too. Now the former king can be rehabilitated. I've already prepared the edict on giving him a title of National Hero and putting up a monument to him. We've declared a national holiday and people are enjoying themselves and holding street festivities.
+The dragon's remains were used to make a new carriage for you, it's coal-black with a dragon-ish tint. Although during its creation two groups of masters have died, one building has been burnt down and one horse herd have inexplicably become rabid, on the whole it's a wonderful present, enough to make your neighboring kings jealous. By the way, they all showed their willingness to come here after the war and congratulate you on the victory. But before accepting their proposal I'd suggest you to hint at them to bring food and drinks . They won't leave here until they eat up everything anyway.
+mcComplete9	Your Majesty, I have great news! We managed to find the dragon's gold and return it to the royal treasury, although it should be mentioned that a portion of the gold deteriorated because of improper storage and I personally had to utilize it. The dragon repented and henceforth swears to take taxes seriously. As for the princess, she probably found a younger dragon.
+mcComplete9alt	Your Majesty, I have great news! We managed to find the dragon's gold and return it to the royal treasury, although it should be mentioned that a portion of the gold deteriorated because of improper storage and I personally had to utilize it. The dragon was shot in an attempt to escape and the princess, unfortunately, managed to sneak off.
+mcFail1	For good reason paladinesses are considered to be elite warriors. They've easily put our troops to flight and now they're heading for the castle. I suggest you tighten your chastity belt, or Your Majesty risks dying in the throes.
+mcFail10	I'm offering an abject apology, but the immigrants, outraged by your intolerant treatment, have risen in rebellion and sent away all local guilds outside the Kingdom. But the worst news for you is that they've just elected a new king, and now that I've passed on that message, please have the courtesy to return the crown and vacate the premises within the hour.
+mcFail11	Your Majesty, it turned out that the problem with vampires was somewhat overstated. I'm sure you'll get bored listening to all the tiresome details of this matter, so it will be much quicker if I just bite you...
+mcFail12	It's a disaster! The shameless warriors grew weary of orgies in the backwoods, broke into the towns and enacted new laws there. On this occasion, I can finally do a thing I dreamt of for many years on royal service - I propose marriage to your Majesty!
+mcFail13	Your Majesty, the necromancer's servants have resurrected their sovereign! Your army have defected to him and any minute the horde of merciless monsters will burst into the throne room. I hope Mr necromancer needs a wise advisor...
+mcFail14	Your Majesty, despite our efforts the Greedy Misers clan lost in the final. As a result, their chieftain insisted on considering people as monsters again, and they now can be hunted on the games. The final will be played again according to the new rules. Save yourself, the dwarves are already breaking our gate!
+mcFail15	Your Majesty, unfortunately, things have taken a turn for the worse. The dragons have made their peace with the golems and decided to breed virgins right in the Kingdom capital. All pure and photogenic people are ordered to report to the veterinary service at once to undergo a breed test and be stamped accordingly. And the ones who are not fertile are welcomed at the fertilizer farm.
+mcFail16	It's terrible your Worship! Our reconnaissance party are defeated, our spies fled, and the free-thinkers organized... excuse this repulsive word... elections. One of the healers became the president, a gnome is now his prime-minister and a barbarian is a general. Other residents received their posts. For example, I'm a potter's apprentice and you're a junior sewage pipe cleaner.
+mcFail2	Unfortunately, the cause of the loss of caravans hasn't been found. We ran out of our ink supply, and the kingdom has been plunged into chaos. But the worst thing for you is that you can't even sign a document declaring your non-participation in what has happened!
+mcFail3	Your Majesty, the deadly spells have finally reached us. Our castle is destroyed, all your subjects stopped breathing and died and the kingdom is left in ruins. The Supreme Wizard is probably pleased with himself... Oh, how clear the air has become! Don't you think?
+mcFail4	Your Majesty, we lost, vampires spread all over the kingdom, and we managed to evacuate only your harem and wine cellar.
+mcFail5	You didn't manage to repulse the attack, the goblins destroyed your troops and captured the kingdom.
+mcFail6	Sire! Unfortunately, all our warriors caught laryngopharyngotracheitis and we lost the battle.
+mcFail7	The red dragons appeared to be much stronger than our army. They've defeated our troops and now they're marching to our border. The royal castle is going to turn into a flare soon. All your guards have deserted their posts and jumped into the baths. Maybe we should follow suit?
+mcFail8	The Great Dragon appeared to be too strong an enemy for us. Having destroyed your troops and had a snack with captives, he fell asleep again for another thousand years.
+mcFail9	Your Majesty, I have bad news... The dragon insolently refused to pay taxes, ate your murd... pathfinders and... er... well, he is already here, and he's going to tell you everything himself.
+mcGeneral	Total
+mcReplayQ	Do you want to replay the mission?
+messageBuilding	Your Majesty! You've just issued orders of construction to the workers. The construction will start immediately once they arrive at the location which may take some time. If you are constructing several buildings at once, the construction progresses slower. You won't see the workers themselves, Your Majesty, for they, unlike the heroes, are not honourable enough to stand before your eyes.
+messageSire	Your Majesty!
+mnuSSH00	Castle of the 3rd level, Blacksmith of the 3rd level, Marketplace of the 3rd level
+mnuSSH01	Castle of the 2nd level, Temple of Crypta of the 2nd level, Guard tower
+mnuSSH02	Castle of the 2nd level, Temple of Agrella of the 2nd level, Warrior guild
+mnuSSH03	Castle of the 2nd level, Wizard guild of the 2nd level, two Guard towers
+mnuSSH04	Castle of the 1st level, Elven bungalow, two Guard towers
+mnuSSH05	Castle of the 1st level, Dwarven fortress, Blacksmith of the 3rd level
+mnuSSH06	Castle of the 1st level, Temple of Krolm
+mnuSSH07	Castle of the 1st level, Warrior guild, Guard tower
+mnuSSH08	Only Castle of the 1st level
+mnuSSH10	This area swarms with wild life. It's rumored that you can meet Daemonwoods in the forests.
+mnuSSH11	Goblins have taken refuge in this area.
+mnuSSH12	Trolls have taken to the local girls, and the forests have been flooded with goblins...
+mnuSSH13	Hordes of undead led by vampires inhabit these lands.
+mnuSSH14	The area is full of wandering guards of Tartar, harpies and minotaurs.
+mnuSSH15	This area is swarmed with Medusae and their tame rats
+mnuSSH20	Nearby lands have been mopped up, let's mop up these lands, too!!!
+mnuSSH21	These lands are raided by rats.
+mnuSSH22	Skeletons from the neighboring dead lands invade this area.
+mnuSSH23	Goblins encroach on your Kingdom.
+mnuSSH24	Harpies attack your settlement in search of loot.
+mnuSSH25	Minotaurs come from the nearby wild lands in search of victims.
+mnuSSH26	Vampires invade this area in search of fresh blood.
+mnuSSH27	These lands are invaded by Medusae
+mnuSSH28	The way of Golems runs across your lands
+mnuSSH29	Dragons attack your settlement
+mnuSSH30	Green plains, groves, and meadows - good opportunities for blocks and gibbets.
+mnuSSH31	Grass doesn't grow under a soldier's boot.
+mnuSSH310	Hordes of spiteful rabbits have beat paths to places where they have mating games.
+mnuSSH311	Broad glades and remains of ruins. The best place for hunting and public executions.
+mnuSSH312	Rookeries of Dragons and the burnt land.
+mnuSSH32	Here was a great forest but the Kingdom lacked toothpicks.
+mnuSSH33	Elves, dwarves and sheep were exiled to the mines a long time ago.
+mnuSSH34	Elvish girls from the local woods are frequent guests in the tavern.
+mnuSSH35	It's better to fight on a full stomach.
+mnuSSH36	Homeland of vampires, deserted and gloomy.
+mnuSSH37	Giant mushrooms grow on the bones of the executed.
+mnuSSH38	Get used to it, Your Majesty, it'll be like this in hell.
+mnuSSH39	Every necromancer would begrudge the view from the royal bedroom.
+mnuSSH4	# gold
+mnuSSH50	Destroy the enemies
+mnuSSH51-4	Collect # gold
+mnuSSH55-8	Hold out for # days
+mnuSSM00	Novice set
+mnuSSM01	I choose the dark
+mnuSSM02	Life keepers
+mnuSSM03	Battle wizards
+mnuSSM04	Forest protectors
+mnuSSM05	Short start
+mnuSSM06	Krolm priest
+mnuSSM07	Sentry castle
+mnuSSM08	Build-it-yourself
+mnuSSM10	Enchanted forest
+mnuSSM11	Tribes of goblins
+mnuSSM12	Marsh trolls
+mnuSSM13	Valley of the Dead
+mnuSSM14	Guards of Tartar
+mnuSSM15	Group of Gorgons
+mnuSSM20	No
+mnuSSM21	Waves of rodents
+mnuSSM22	Skeletons
+mnuSSM23	Goblin pathfinders
+mnuSSM24	Harpies
+mnuSSM25	Minotaurs
+mnuSSM26	Vampires
+mnuSSM27	Medusae
+mnuSSM28	Golems
+mnuSSM29	Dragons
+mnuSSM30	Ardania plains
+mnuSSM31	The field of battle
+mnuSSM310	Rabbit runways
+mnuSSM311	Snowy plains
+mnuSSM312	Dragon's plateau
+mnuSSM32	Felling
+mnuSSM33	Ruins
+mnuSSM34	Elvish forest
+mnuSSM35	Farmers' lands
+mnuSSM36	Transylvania
+mnuSSM37	Mushroom forest
+mnuSSM38	Dead lands
+mnuSSM39	Graveyards
+mnuSSM4	# gold
+mnuSSM50	Destroy the enemies
+mnuSSM51-4	Collect # gold
+mnuSSM55-8	Hold out for # days
+mnuSST0	Player's forces
+mnuSST1	Enemy's forces
+mnuSST2	Wandering monsters
+mnuSST3	Landscape
+mnuSST4	Startup capital
+mnuSST5	Victory conditions
+msgGameAutoSaved	The game has been saved automatically
+msLose	You lost.
+msVictory	You won.
+newBuildings	New buildings are available for construction
+newHero	New heroes are available to hire
+newHeroInWarrGuild	There are new heroes in the Warrior guild
+newSpells	New spells are available for usage
+newUpgrades	New upgrades are available for buildings
+paArtifice	Dexterity defines hero's thieving abilities
+paDodge	Dodge shows how well the hero is protected against ranged attacks
+paH2H	Melee displays how good the hero is in melee combat
+paIntelligence	Intelligence defines hero's sorcery
+paParry	Deflection shows how well the hero is protected in melee combat
+paRanged	Ranged shows how accurately the hero shoots
+paResist	Resistance shows how well the hero is protected against magic
+pArtifice	Dexterity
+paStrength	Strength defines hero's attack power
+paVitality	Vitality defines hero's health
+paWillpower	Willpower defines hero's loyalty
+pCollect	Takes
+pDelivery	Brings
+pDodge	Dodge
+pH2H	Melee
+pIntelligence	Intelligence
+pParry	Deflection
+pRanged	Ranged
+pResist	Mag. resist.
+pStrength	Strength
+pVitality	Vitality
+pWillpower	Willpower
+rcrHero	New hero hired
+rschArmor	Armour
+rschComplete	Research completed
+rschLevel	Level
+rschWeapon	Weapon
+sBriefHead	Legend
+sBriefL1	Sire, I have alarming news from the Dauros temple, the sacred citadel of our paladinesses. A few days ago the viragoes mutinied and plundered the temple, covered their nails with war paint and went to the forest. Some very curious elves caught them fraternizing with goblins. They're constantly drinking ale and indulging in various vices. From time to time they're robbing tax-collectors and ravaging marketplaces. 
+Among the traitors there is my dear cousin of the aunt of the brother of my mother-in-law's grandfather of my godfather, but nevertheless I beg you to execute all the mutineers! Meanwhile I'll go and make a new will...
+sBriefL10	Your Majesty, pardon me for diverting you from your morning soufflé, but there are a huge crowd of your subjects at the gates. They have presented a petition which demands you take notice of the problem of illegal immigrants who have recently overcrowded the Kingdom. These foreigners undertake the raising of skeletons, preaching and stealing for peanuts, taking all the work from our respected necromancers, preachers and thieves! The most active patriots are ready to solve the problem themselves, you see, these people with pitchforks and torches. In general, I think now is a good time to support this timely initiative at a grass roots level.
+sBriefL11	Your Majesty, another mishap has befallen us! Money is constantly going missing from our treasury. I, together with the main treasurer, have thought it over and concluded that it's the vampires' fault. First of all, they are evil and rich, it's widely known. Secondly, they are strange and they drink blood. Thirdly, there are too many of them of late. The only logical solution to this situation is to exterminate their nasty brotherhood and hope that this will help.
+sBriefL12	Your Majesty, a famous warrior has climbed down the Gibbous mountains and turned up in our lands. He's recruiting all interested men as disciples. Everyone has to vow celibacy and leave their family to settle in the backwoods with the other disciples. The number of these free-thinkers is growing. They eat out of the same cauldron, drink out of the same bottle, hold hands and even sing in chorus. All in all, this directly undermines the demographic nature of the Kingdom and slackens the moral principles of your subjects! The warrior together with his disciples must be caught and married off, or at least slaughtered so it doesn't become a habit.
+sBriefL13	Your Majesty, have you already looked at yourself in the mirror today? No, please don't do that - an evil necromancer has turned all the Kingdom's inhabitants into terrible skeletons. There is an advantage, though, the side effect of this spell has turned all the terrible skeletons into cute rabbits, but it's cold comfort. After committing his malicious act, the necromancer died in the throes, and his loyal servants quickly took his remains away to secluded heathen temples. The situation seems oppressive but there's a small chance to overcome it - our learned wizards think that if we put all the necromancer's parts together, the spell will be cancelled. I think we should start doing this immediately.
+sBriefL14	Your Majesty, a delegation of dwarves have just arrived led by the Chieftain of the Greedy Misers clan. The thing is that the Pan-Dwarven Monster-hunting games will be held soon. The winning clan in these games is the one which kills the most monsters. To succeed, the clans can take any means, and the Chieftain is asking for our help in the final game. He also reminds us that he was once the initiator who excluded people from the category of monsters. As a reward for our participation in the games he promises to send us a sack of diamonds after the victory. He also hints that he won't get upset if the competitive Fierce Goldlovers clan is completely eliminated during the games. The deal seems to be profitable!
+sBriefL15	Your Majesty, a dragon visited us recently. We extended hospitality to him and offered him the usual set of virgins and cattle but he unexpectedly refused the refreshments and demanded an audience with you. The point is that a small but assiduous community of law-abiding dragons on the outlying districts are in danger. A gang of inveterate golem scoundrels threaten them. Golems have terrorized the neighborhood for a long time, they steal thoroughbred virgins from the dragons' farms. If things stay the same, the dragons will be reduced to penury and die of starvation. With the remainder of their riches the unhappy farmers want to hire several brave mercenaries. But I'm sure many of our subjects would like to take up the call without seeking to profit, and it would be honorable of you to formalize this noble impulse as an order. The remainder of the riches is already on its way to the royal treasury.
+sBriefL16	Your Majesty, the sovereign tyranny is in danger! Our spies report that the healers guild are instigating gnomes and barbarians to demand the improvement of working conditions and even a salary - it's unprecedented! The gnomes always had the absence of beating as the highest reward, and the barbarians were formerly satisfied with a big piece of brisket. These were our national traditions, and to waive them would betray everything our ancestors had fought for! We must stamp out this mutinous attitude for the sake of all that is good.
+sBriefL2	Your Majesty, we're having trouble again. The traders' guild inform us that caravans with the necessary goods have stopped coming to the town. It never happened even under your late father, peace to his ashes. If we don't solve the problem we'll find ourselves without vital goods. We will be able to do without food and medicine, but if the castle runs out of ink, the kingdom will be plunged into chaos. The folk won't have anything to write delations with, tax-collectors and money-lenders won't be able to seize debtors' property, and I won't be able to prepare death warrants for your signature. I'm afraid we'll have to write on walls and fences as there are enough inscriptions already.
+sBriefL3	Your Majesty! Our unchallenged Supreme Wizard, honorary member of the Magic Academy and choir's soloist, who served Ardania and the Crown faithfully for many years, has officially gone off his head. He smashed up his laboratory, cursed his secretary and went away to his country tower. Moreover, he cast the spell which turned all gold and jewelery in your treasure house into biscuits. Your golden hall now looks like a gingerbread cottage. This morning he sent us a haughty harpy with a written demand, quote: "I order all the <censored> people of Ardania including its <censored> king to stop breathing within seven days because I'm allergic to the air you spoil, else I, the Greatest Wizard, will destroy your <censored> kingdom" unquote. To prove his intention to be firm, he burnt down a village! Though this village wasn't ours, but he doesn't know that yet. In addition, he's regularly casting baneful spells on your warriors. The other wizards are containing his mad rage for now but they won't hold out long because the spells are becoming more powerful day by day. Oh, you should definitely taste the biscuits! They're delicious, just like my late Grandmother baked.
+sBriefL4	Your Majesty, our head tax-collector has just returned from a remote village and brings bad news. He says that instead of the rural idyll he discovered a strange black castle right in the center of the village and there wasn't a soul on the streets. He checked all the houses and found out that previously law-abiding taxpayers had turned into vampires. But our tax-collector didn't get frightened by them (the sun was shining bright then) and took in all the taxes. Your Majesty, the presence of vampire villages is unacceptable in our kingdom because it is known for certain that vampires never pay taxes.
+sBriefL5	Sire, an unforeseen error has occurred My report about eliminating the threat from goblins was criminally optimistic. Yesterday night goblins from the neighboring state crossed our border and treacherously attacked us! Now they're conquering village after village eating up and robbing every living and not-nailed-down thing on their way. Your Majesty, I've made a terrible mistake, and my family is disgraced. Let me wash my guilt away with blood - my two relatives dreamt of joining the troops, fighting on the front line and dying for their King! Please, do them this honor!
+sBriefL6	Your Majesty, the recent goblin attack was nearly crowned a success. This army was the biggest and most organized of all they've ever got together. Our council suppose the cause of all our troubles is in the North, outside our borders. To prevent further attacks, we need to get our troops together and march off to explore, occupy and annex the northern territories to our kingdom. A beautiful land is there, with rivers, forests, mountains... We may build there your winter residence and a ski resort.
+sBriefL7	Your Majesty, new territories keep surprising us with their beauty and sights. At dawn your warriors discovered an absolute miracle - the cemetery of red dragons who are preserved quite well in such cold climate areas. If it pleases you we'll halt a while as the warriors want to make several portraits with mountains and dragons in the background.
+sBriefL8	Sire, our scientists and wizards have conducted the research on the Great Dragon and diagnosed lichen, haemorrhoids and prostatitis. Besides, over his long life he's accumulated a lot of magic, anger and complexes, and even in his sleep he contrives to give vent to others' bile. As he can't be trained to dream about anything good and useful, for the sake of the kingdom the dragon must be eliminated.
+sBriefL9	Your Majesty, the royal tax collector has just reported that a local dragon, not willing to pay taxes for the last 100 years, fled from his lair together with a princess to an undisclosed location. But he's one of the main taxpayers of the Kingdom! Our economy is in peril! In addition, if we forgive this one, every nasty vampire, ogre or lord of darkness would shrug off your laws with perfect impunity. We must send the troop of murd... I mean, the troop of pathfinders to find the runaways and your gold.
+setAward	Define a reward for the flags
+sExpBar	Experience
+sGameIntro	So, you've ruled for several years over the kingdom you'd inherited from your late father Roderick I. During these years you proved yourself to be a wise and just regent who's able to cope with any disaster that befalls the kingdom. The rats are defeated and annihilated, goblins have been taken in hand, dwarves properly supply the court with excellent ale. Even the dragons accepted the rule that murder and destroying of villages is forbidden, and have flown to the mountains. But the quiet and steady life doesn't suit you. Young blood seethes in veins and thirsts for senseless murders and destruction. In the evenings you wistfully gaze northwards drinking another keg of ale. The court scientists say those parts of the world have useful lands and mysterious creatures to be conquered. You imagine heaps of defeated enemies, the smoking ruins of their dwellings, piles of captured treasures and your renewed harem. Then Your Majesty is falling asleep after making his head comfortable right in the hors d'oeuvre. The crown is slipping off your head, rolling along the table and falling with a clang onto the floor full of leftovers. You start dreaming about a throne of black gold in which you're sitting solemnly. In your right hand you're holding a troll's head, a harpy settled on the left one. A necklace of vampire fangs is shining around your neck.
+shortAgrellaAlreadyBuilt	Unable to construct: Temple of Agrella is already built.
+shortChooseGoal	Select a target to use the spell
+shortCryptaAlreadyBuilt	Unable to construct: Temple of Crypta is already built.
+shortDwarfWndAlreadyBuilt	Unable to construct: Dwarven fortress is already built.
+shortElfBngAlreadyBuilt	Unable to construct: Elven bungalow is already built.
+shortHovelAlreadyBuilt	Unable to construct: Gnome hovel is already built.
+shortKrolmaAlreadyBuilt	Unable to construct: Temple of Krolm is already built.
+shortTxtBuildDwarfTower	Dwarven fortress is required
+shortTxtBuildDwarfWindmill	3rd level Blacksmith is required
+shortTxtBuildLibrary	Wizard guild is required
+shortTxtBuildWizardGuild	2nd level of Castle is required
+shortTxtChooseArea	Select location on the map
+shortTxtChooseDarkArea	Select unexplored location on the map
+shortTxtDeadGoal	The target is dead, unable to use magic
+shortTxtGold	more coins
+shortTxtHeroes	more heroes
+shortTxtImposibleAnimateBones	The spell is already used on this target
+shortTxtMagicStillWorking	The spell is still active
+shortTxtMagicUnavailable	Spell is unavailable
+shortTxtMaxBuildings	Maximum number of buildings in the game is reached
+shortTxtMaxGuildHeroes	Maximum number of heroes is reached
+shortTxtMaxHeroes	Maximum number of heroes in the game is reached
+shortTxtMaxLevel	Maximum level of building upgrade is reached
+shortTxtMinCollecting	Minimal sum which the building should have
+shortTxtMinDelivery	Minimal sum the tax collector should bring
+shortTxtNeedMoreUpdates	All the upgrades are required
+shortTxtNeedUpgradeBsmith	Upgraded Blacksmith is required
+shortTxtNoGold	You need
+shortTxtNoHeroes	Need to hire
+shortTxtUpgradeCastleLevelThree	Level 3 Castle is required
+shortUseSCharge	Click the icon once more to use the spell
+sL0	Tutorial
+sL1	1. Riot of Paladinesses
+sL10	10. Overpopulation
+sL11	11. Lost Gold
+sL12	12. Moral Decadence
+sL13	13. Too Many Skeletons
+sL14	14. Dwarves Amusement
+sL15	15. Conflict of Interest
+sL16	16. Riot of Libertarians
+sL2	2. Ink Crisis
+sL3	3. Biscuits Worth Their Weight in Gold
+sL4	4. A Vampire Pays Twice
+sL5	5. Goblins Are All the Same
+sL6	6. Northern Health Resort
+sL7	7. Deep Freeze
+sL8	8. Millennium Dragon
+sL9	9. Tax Crisis
+sLH0	Build and upgrade the marketplaces. More marketplaces - more gold.
+sLH1	Elves double the income from marketplaces.
+sLH10	You won't be able to build the temple of other gods if there's a Temple of Agrella!
+sLH11	You won't be able to build the temple of other gods if there's a Temple of Crypta!
+sLH12	You won't be able to build the temple of other gods if there's a Temple of Krolm!
+sLH13	You won't be able to build an Elven bungalow if there's a Dwarven fortress.
+sLH14	You won't be able to build a Dwarven fortress if there're an Elven bungalow.
+sLH15	The closer the gnome hovel stands to the building, the quicker it is constructed and repaired.
+sLH16	The farther the building stands from the Castle, the longer the delay before the beginning of its construction.
+sLH17	The more buildings constructed at once, the slower the construction progress.
+sLH18	Repeated construction of the same building costs more.
+sLH19	The price of a Dwarven tower doesn't increase on repeated construction.
+sLH2	The higher the marketplace level, the more gold it brings.
+sLH20	You need 3rd level Castle to upgrade Temples and Wizard guilds to 3rd level.
+sLH21	You should build and upgrade the Library in order to teach more spells to the wizards.
+sLH22	The healers improve heroes' chances of survival with their healing spells.
+sLH23	The ranger like to accompany barbarians in adventures.
+sLH24	Necromancers may temporarily tame the undead.
+sLH25	If you spot a Golem or Dragon, it's time to panic.
+sLH26	The tax collectors and guards can hide in Guard towers. Build them by the marketplaces.
+sLH27	Use the attack flags to encourage your heroes to attack the monsters and their lairs.
+sLH28	Use scouting flags to encourage your heroes to explore the dark parts of the map.
+sLH29	Ranger will explore on his own.
+sLH3	The higher the Castle level, the higher the kingdom income.
+sLH30	The paladins become available in Warrior guild if a Temple of Agrella is built.
+sLH31	Warriors of Discord become available in Warrior guild if a Temple of Crypta is built.
+sLH32	The higher the Castle level, the more Guards and Tax collectors it may support.
+sLH33	From the game menu you can always replenish the treasury by making a purchase on Android Market.
+sLH34	Maximum numbers of heroes and buildings in the game is limited.
+sLH35	Profiles allow several players to play from the same phone without bothering each other.
+sLH36	You can always change the profile in options.
+sLH37	Save the game to continue playing from this point in future.
+sLH4	The daemonwoods aren't seen on the mini-map.
+sLH5	Double clicking on the object sets an attack flag, on an unexplored area - a scouting flag.
+sLH6	Gnome hovels increase the speed of building construction and repairing.
+sLH7	Sometimes the dwarves help to construct and repair the damaged buildings.
+sLH8	The heroes may find weapons, armour or magical scrolls in monster lairs.
+sLH9	You won't be able to build Elven bungalows or Dwarven fortress if there is a gnome hovel.
+sLifeBar	Health
+sm1	Teleport
+sm10	Fire shield
+sm11	Fire blast
+sm13	Fireball
+sm14	Magic resistance
+sm15	Meteorite storm
+sm16	Shield of light
+sm18	Bless
+sm19	Resurrect
+sm2	Camouflage
+sm20	Wither
+sm22	Reanimate
+sm23	Explore
+sm24	Invisibility
+sm25	Lightning
+sm26	Anti-magic
+sm27	Lightning storm
+sm28	Super charge
+sm29	Krolm's wrath
+sm3	Heal
+sm4	Meditation
+sm5	Aura of peace
+sm6	Drain life
+sm7	Raise bones
+sm8	Control undead
+sm9	Energy blast
+sMessageL2_1	Your Majesty! Good news! Our troops have found the lost Gyzmondo. He stumbled into a magical trap during his unholy searches for a bride through the ancient burrows. If we manage to free him, he'll help us to resolve the trouble with the goblins.
+sMessageL2_2	Your Majesty! Your troops have finally freed the necromancer, he's somewhat tarnished but ready to start dragging the rats back to life. Finally the goblins will get off our backs!
+sMessageL8_1	Your Majesty, something strange has happened. The minotaurs ask for a ceasefire and want to talk to us. Your Majesty, this has never happened during the entire history of the kingdom!
+sMessageL8_2	Hrrr..you humans...rrgh...you're weak...hrgr..stupid...rrrhg...help ourrrr enemies you arrre. They steal my brrride...hide in mountains...why my brrride need they?..rrreturn herrr...kill dwarrrves... orrr die yourrselves...
+sMessageL8_3	Hey, bully, I believe your horns grew much longer recently! Your bride came with me of her own will. The smart females know that size doesn't matter.
+sMessageL8_4	Your Majesty! Your army has attacked the dwarves and now they've turned into our enemies!
+sMessageL9-1	This is probably the dragon's chest. Be careful, such chests can usually stand up for themselves!
+sMessageL9-2	Your Majesty, we've chanced upon the dragon who turned out to be confined somehow in a magic circle. He told us that the evil princess had bewitched him and run away with another dragon. He promised emphatically to give all his gold to his liberator!
+sMessageL9-3	The dragon has kept his promise and told how to open the enchanted chest with the treasure. He also thanks us for the breaking from bonds.
+sMessageTitle	Advisor
+sMessageTitle2	Minotaur chieftain
+sMessageTitle3	Dwarvy the Great
+smLockedBonusMission	Level is locked. Complete all levels with gold awards to unlock it.
+smLockedBuyMission	The level is locked. You can unlock it by making a purchase on Android Market.
+smLockedMission	Level is locked. Complete previous levels.
+smScores	Scores
+smSelectMission	Select mission
+smUseMagicKey	Or use magic keys to unlock all the levels.
+snAmTel	Amulet of teleportation
+snArmor	ARMOURS
+snArmor0	No armour
+snArmor1	Plate armour
+snArmor10	Razor harness
+snArmor11	Chaos Armour
+snArmor12	Ultra Chaos Armour
+snArmor13	Iron chainmail
+snArmor14	Steel chainmail
+snArmor15	Enhanced steel chainmail
+snArmor16	Mithril chainmail
+snArmor2	Heavy plate armour
+snArmor3	Steel plate armour
+snArmor4	Mithril plate armour
+snArmor5	Soft leather armour
+snArmor6	Hard leather armour
+snArmor7	Studded leather armour
+snArmor8	Behterets
+snArmor9	Leather harness
+snCamuflage	Scroll of "Camouflage"
+snCasts	MAGIC
+snEffects	ENCHANTMENTS
+snEnBlst	Scroll of "Energy blast"
+snFireBlst	Scroll of "Fire blast"
+snInvis	Scroll of "Invisibility"
+snPotions	Healing potions
+snRngPrt	Ring of protection^Deflection +10,^Dodge +10,^Resistance +10
+snThings	MISCELLANEOUS
+snWeapon	WEAPONS
+snWeapon0	Short sword
+snWeapon1	Broad sword
+snWeapon10	Chaos blade stick
+snWeapon11	Legendary Chaos blade stick
+snWeapon12	Axe
+snWeapon13	Heavy axe
+snWeapon14	Broad axe
+snWeapon15	Battle axe
+snWeapon16	Hammer
+snWeapon17	Steel hammer
+snWeapon18	War hammer
+snWeapon19	Heavy war hammer
+snWeapon2	Bastard sword
+snWeapon20	Staff of health
+snWeapon21	Shadow staff
+snWeapon22	Fighting staff
+snWeapon3	Steel bastard sword
+snWeapon4	Longbow
+snWeapon5	Fine longbow
+snWeapon6	Yew longbow
+snWeapon7	Composite longbow
+snWeapon8	Blade stick
+snWeapon9	Razor blade stick
+SOCIALNET_LIST	0110000
+sSaveBuildCount	Number of buildings
+sSaveChest	Treasury
+sSaveDay	Day
+sSaveHeroCount	Number of heroes
+sSaveMission	Mission
+ssScreenShotError	Screenshot saving error.
+ssScreenShotOk	Screenshot was saved successfully.
+sTaskHead	Goals
+sTaskL1	Defeat the rebellious paladinesses.
+sTaskL10	Destroy all immigrant settlements.
+sTaskL11	Find and destroy the vampires' castles.
+sTaskL12	Defeat the legendary warrior.
+sTaskL13	Find the parts of the necromancer.
+sTaskL13-1	Kill the necromancer in the heathen temple.
+sTaskL14	Destroy the monster lairs before the dwarf clan does.
+sTaskL15	Defeat golems or dragons.
+sTaskL16	Destroy the settlements of the rebellious barbarians and healers.
+sTaskL2	Find out and remove the cause of the lost caravans.
+sTaskL3	Destroy the tower of the mad wizard.
+sTaskL4	Destroy the vampires' castle.
+sTaskL5	Destroy all the goblins' dwellings.
+sTaskL6	Destroy all Golems.
+sTaskL7	Destroy all the dragons.
+sTaskL8	Defeat the Great Dragon.
+sTaskL9	Find the dragon's treasure.
+sTaskL9-1	Try to break the curse and take the treasure.
+sTaskL9-2	Release the dragon and research the treasure.
+sTaskL9-3	The dragon told us how to break the curse - we need to find and take the chest.
+stHintHead	TUTORIAL
+stHintHead0	BUILDING
+stHintHead1	HIRING HEROES
+stHintHead2	FLAGS
+stHintHead3	UPGRADE BUILDINGS
+stHintHead4	MAGIC USAGE
+stHintText0	Welcome to tutorial level of Majesty game. Here you'll learn to construct buildings, hire heroes, use magic etc.
+stHintText1	The buildings are the base of your might. Constructed buildings define the classes of available heroes, spells, weapon upgrades, etc.
+stHintText10	Hire three more warriors so their total number is four.
+stHintText11	Now you have four heroes and you can upgrade your Castle. Click on the castle or castle icon at the bottom right corner of the screen and press flashing button with number II.
+stHintText12	Your Castle is upgraded to the 2nd level and now new buildings are available for construction. Select and build a Wizard guild.
+stHintText13	As the Wizard guild is ready, the spells "Explore" and "Invisibility" are available. "Explore" spell reveals the specified dark spot of the map, "Invisibility" spell temporary makes any hero or monster invisible.
+stHintText14	Open the magic menu from the bottom left corner. Click the icon for the "Explore" spell, then click on any unexplored part of the map twice. The dark spot of a certain radius around your click will be revealed.
+stHintText15	Only two spells are available to a 1st level Wizard guild. Upgrade the guild to 2nd and 3rd levels to access the remaining spells.
+stHintText16	Tutorial ends here.
+stHintText2	Let's start with construction of a basic building Warrior guild where we may hire the warriors. Select a castle on the map or click the castle button in the bottom right corner of the screen.
+stHintText3	Press the button near the house icon on the popped up castle screen.
+stHintText4	You're now shown a list of available buildings. Click twice on the button marked Warrior guild.
+stHintText5	Click on the map to select the location to build a Warrior guild. The red tiles mean that it's impossible to build here and you should select another location for building. Click twice on the map to begin construction at the selected location.
+stHintText6	So, the Warrior guild is ready. Now click on the constructed building and hire one warrior. Click the "plus" icon next to the warrior to hire him.
+stHintText7	So, your first hero is ready for adventures. You cannot control him - he decides where to go and what to do on his own. Build the blacksmith's to make your hero buy new weapons and armour. Build a marketplace to make him buy healing potions.
+stHintText8	Use the "Attack flag" to make units attack a special monster or monster lair. Click on the lair and select the icon with two swords to mark this lair with an "Attack flag". Use plus or minus to define the sum of reward for destroying this lair. The higher the sum is, the better the chance that the heroes become interested in this reward. Set a reward of 1000 gold coins and click on the cross to close the window. Wait until the heroes come to destroy the lair.
+stHintText9	You can assign the "Scouting flag" in the same way to make the heroes visit the spot on the map and explore the unexplored areas. Click twice on the map spot to set the "Scouting flag". Click twice at a monster or lair to mark it with an "Attack flag".
+ucAbout	Welcome to the world of YOURCRAFT.^Become a part of YOURCRAFT and you'll be able to:^ -Participate in the contests;^- Compete with the players of many countries including your own;^- Find new friends;
+-Receive various bonuses and prizes;^- Have your own virtual account which may be used to purchase new games, levels, maps, lives, pictures;^- Create your own levels for all the world to see.
+ucAboutShadow	If you're registered in one of the games by HEROCRAFT, you can use the account to authorize in this game. If you are not registered yet, you can register right now. The login and password you make now can be used for other games by HEROCRAFT.
+ucAuth	Authorize
+ucCode0	No connection
+ucCode1	Operation error
+ucCode10	User already exists.
+ucCode11	Client data error.
+ucCode12	Only for authorized users.
+ucCode15	Session is invalid.
+ucCode17	If you already have an account with login and password which do not fulfill the requirements, you should change your registration data at your profile page. Would you like to go there now?
+ucCode2	Login error
+ucCode3	Password error
+ucCode9	Server data error. (code reserved for client)
+ucCodeOk	Operation performed successfully
+ucGlobalRecord	Global
+ucLogin	Login
+ucMail	E-Mail
+ucMonthRecord	Per month
+ucNewUser	New user
+ucPassword	Password
+ucPasswordConfirm	Confirm password
+ucPhone	Phone number
+ucPos	Place
+uCraftHint	- store your achievements on the server
+uCraftHintPrefix	Become a part of YOURCRAFT and you'll be able to:^
+uCraftNotMatch	Passwords do not match.
+uCraftNotPermitted	Login may contain only latin letters, numbers, dot (.) and underscore (_) symbols. Login can't begin or end with dot. Password may contain only latin letters, numbers, dot (.), underscore (_), at sign (@), pound sign (#). Login and password must consist of 4 or more characters.
+ucRecords	HIGH SCORES
+ucRecordsEmpty	High scores table is empty.
+ucReg	Register
+ucRegAuth	Authorize or register?
+ucScores	SCORES
+ucSendRecordQ	Your total score {0}.^ Want to send?
+ucWaitConnection	Wait, data transferring in progress
+ucWap	VIEW
+ucWeekRecord	Per week
+ucWhantRepeat	Repeat?
+uiAutoSave	AUTOSAVE
+uiBuyCrystalsQ	Would you like to buy {0} crystals?
+uiBuyCrystalsQ1	Would you like to buy {0} crystals for SMS?
+uiBuyCrystalsTitle	Purchase
+uiBuyCrystalsTxt	crystals
+uiCheatIntroTxt	Crystals are the resource that allow you to enjoy loads of cheats that make the game easier. You can obtain crystals by getting gold medals in the missions. The amount of crystals gained depends on the difficulty level. You can also buy the crystals using "plus" button.
+uiCheatIntroTxt1	Crystals are the resource that allow you to enjoy loads of cheats that make the game easier. You can obtain crystals by getting gold medals in the missions. The amount of crystals gained depends on the difficulty level.
+uiCheatName0	Immortal tax collector
+uiCheatName1	Quick construction
+uiCheatName10	Mighty necromancers
+uiCheatName11	More heroes
+uiCheatName12	Capacious guilds
+uiCheatName13	Chest with gold
+uiCheatName2	Veterans
+uiCheatName3	Easy-gained experience
+uiCheatName4	Firm walls
+uiCheatName5	Guard towers
+uiCheatName6	Revealed map
+uiCheatName7	Ideal castle
+uiCheatName8	Quick hire
+uiCheats	CHEATS
+uiCheatTxt0	Nothing can hurt your tax collector, he becomes immortal in the current game session.
+uiCheatTxt1	In the current game session all buildings are constructed instantly.
+uiCheatTxt10	In the current game session necromancers summon vampires instead of skeletons.
+uiCheatTxt11	In the current game session you can hire twice as many heroes.
+uiCheatTxt12	In the current game session each guild can contain twice as many heroes.
+uiCheatTxt13	You get 10,000 gold.
+uiCheatTxt2	In the current game session all hired heroes begin at level 5.
+uiCheatTxt3	In the current game session the heroes gain experience twice as quickly.
+uiCheatTxt4	In the current game session all your buildings become twice as strong.
+uiCheatTxt5	In the current game session all your guard towers have double shooting force.
+uiCheatTxt6	In the current game session the map is fully revealed from the beginning.
+uiCheatTxt7	You start a current game session with a 3rd level castle.
+uiCheatTxt8	In the current game session heroes are recruited instantly.
+uiChooseSlot	Select slot
+uiEmptySlot	Empty slot
+uiGetCheatQ	Activate it for {0} crystals?
+uiNotEnoughCrystals	Not enough crystals.
+uiPlayMode	SELECT GAME MODE
+uiRestartLevel	RESTART LEVEL
+uiTurnOffWeatherQ	Your Majesty! If the bad weather makes your kingdom difficult to control I can order the court wizards to dispel the clouds! Would you like to switch off the changeable weather?
+uiWeather	WEATHER
+updBuilding	Building upgraded
+uShadowHintPrefix	Register one of the games by HEROCRAFT and you'll be able to:^

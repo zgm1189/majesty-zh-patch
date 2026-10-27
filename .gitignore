@@ -1,0 +1,31 @@
+# ---- 构建产物 / 中间文件（体积大、可重现，不入库）----
+build/
+extracted/
+备份/
+*.apk
+*.idsig
+*.so
+*.o
+*.bak_diag
+*.keystore
+
+# ---- 分析过程产生的截图 / 大文件 ----
+analysis/png/
+analysis/*.png
+_D*.png
+_L*.png
+_*.png
+
+# ---- 系统垃圾 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+
+# ---- AI 工具的项目记忆（本地状态，不入库）----
+.workbuddy-ai/
